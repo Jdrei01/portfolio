@@ -1,0 +1,159 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #f39c12;
+}
+
+/* Hero banner styles */
+.hero-banner {
+    background-image: url("Image/desktop-wallpaper-portfolio.png");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Page section styles */
+.page-section {
+    padding: 2rem;
+
+}
+
+.page-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.profile {
+    width: 20%;
+    margin: 0 2% 1% 0;
+    border: 5px solid
+}
+
+/* Project styles */
+.project {
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+}
+
+.project h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.project p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+/* Contact section styles */
+.section {
+    background-color: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.container ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.container ul a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    margin-bottom: 1rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.container ul a:hover {
+    color: #f39c12;
+}
+ /* Section with flex */
+.section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section h2 {
+    flex-basis: 20%;
+}
+
+.section .right-content {
+    flex-basis: 70%;
+}
+
+h1 {
+color: white;    
+}
+
+.subtitle {
+color: white;
+}
+
